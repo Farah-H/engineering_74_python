@@ -44,7 +44,7 @@ user_details = {
     'national_insurance' : 'DH6735H',
     'highest_qualification' : 'MSc Nuclear Science and Engineering',
     'hobbies' : ['Painting', 'Gaming', 'Volunteering'], #create a list of hobbies of at least 3 items
-    'course' : 'DevOps'
+    'course' : 'DevOps',
     'grades' : {
         'English' : 'A*',
         'Science' : 'A*',
@@ -52,5 +52,10 @@ user_details = {
         'Chemistry' : 'A'
     }
 }
+
+# methods of dictionaries to remove, add, replace, display type of items 
+print(user_details['hobbies'])
+user_details['hobbies'].append('Sleeping')
+print(user_details['hobbies'])
 
 print(user_details['hobbies'][::-1])
