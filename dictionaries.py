@@ -5,14 +5,15 @@
 #what type of data can be stored / manage
 # any 
 
-# # let's create a dictionary 
-# devops_students = {
-#     'key' : 'value', 
-#     'name': 'james',
-#     'stream': 'tech',
-#     'completed_lessons' : 4,
-#     'completed_lesson_names': ['variables', 'operators', 'data types']
-# }
+# let's create a dictionary 
+devops_students = {
+    'key' : 'value', 
+    'name': 'james',
+    'stream': 'tech',
+    'completed_lessons' : 4,
+    'completed_lesson_names': ['variables', 'operators', 'data types']
+}
+
 
 # #display the data using key name
 # print(devops_students['name'])
@@ -53,9 +54,13 @@ user_details = {
     }
 }
 
-# methods of dictionaries to remove, add, replace, display type of items 
+# adding item to list inside dictionary 
 print(user_details['hobbies'])
 user_details['hobbies'].append('Sleeping')
+print(user_details['hobbies'])
+
+# removing item from list inside dictionary 
+user_details['hobbies'].remove('Sleeping')
 print(user_details['hobbies'])
 
 print(user_details['hobbies'][::-1])
